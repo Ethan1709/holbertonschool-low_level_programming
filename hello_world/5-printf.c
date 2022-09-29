@@ -2,7 +2,7 @@
 
 /**
  *main - run the code
- **
+ *
  *Description: use printf function
  *Return: Return 0 to exit function 
  */
