@@ -1,4 +1,11 @@
 #include<stdio.h>
+/**
+ *main - runs this code
+ **
+ *Description: prints sizes of dataTypes
+ *Return: Return 0 to exit
+ */
+
 
 int main(void)
 {
