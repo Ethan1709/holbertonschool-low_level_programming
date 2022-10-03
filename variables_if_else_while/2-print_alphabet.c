@@ -17,4 +17,6 @@ putchar ('\n');
 
 getch();
 
+return(0);
+
 }
