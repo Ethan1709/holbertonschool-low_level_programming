@@ -11,7 +11,9 @@ int main(void)
 char n;
 
 for (n = 'a'; n <= 'z'; n++)
-printf("%c", n);
+putchar(str[n]);
+
+putchar ('\n');
 
 return (0);
 }
