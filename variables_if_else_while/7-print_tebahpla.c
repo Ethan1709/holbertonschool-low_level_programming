@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int n;
-	
+	char n;
+
 	for (n = 'z'; n <= 'a'; n--)
 		putchar(n);
 	putchar('\n');
