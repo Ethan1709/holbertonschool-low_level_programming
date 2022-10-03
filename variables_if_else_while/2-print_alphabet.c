@@ -8,12 +8,13 @@
 
 int main(void)
 {
-char n;
+int ch;
 
-for (n = 'a'; n <= 'z'; n++)
-putchar(str[n]);
+for (ch = 'a'; ch <= 'z'; ch++)
+putchar(ch);
 
 putchar ('\n');
 
-return (0);
+getch();
+
 }
