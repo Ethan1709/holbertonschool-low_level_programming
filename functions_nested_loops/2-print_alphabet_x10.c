@@ -14,7 +14,10 @@ void print_alphabet_x10(void)
 	while (y < 10)
 	{
 		for (x = 97; x <= 123; x++)
-		_putchar(x);
-	_putchar('\n');
+		{
+			_putchar(x);
+		}
+		y++;
+		_putchar('\n');
 	}
 }
