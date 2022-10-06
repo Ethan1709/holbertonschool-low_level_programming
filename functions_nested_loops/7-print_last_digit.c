@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - Entry point
- * Description: checks if character is in lowercase
+ * Description: prints the last digit
  *@c: last digit
  * Return: Alaways 0 (Success)
  */
