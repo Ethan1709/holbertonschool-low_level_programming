@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - Entry point
- * Description: prints _putchar
+ * Description: prints alphabet x10
  * Return: Alaways 0 (Success)
  */
 
@@ -13,10 +13,9 @@ void print_alphabet_x10(void)
 	while (y < 10)
 	{
 		for (x = 97; x <= 122; x++)
-		{
-			putchar(x);
-		}
+		_putchar(x);
+
 		y++;
-		putchar('\n');
+		_putchar('\n');
 	}
 }
