@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * void jack_bauer - Entry point
+ * jack_bauer - Entry point
  * Description: prints every minute
- * @void: jack bauer
  * Return: Alaways 0 (Success)
  */
 
