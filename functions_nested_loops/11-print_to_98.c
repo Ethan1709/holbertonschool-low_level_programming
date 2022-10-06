@@ -9,8 +9,6 @@
 
 void print_to_98(int n)
 {
-	int n;
-
 	while (n >= 1)
 	{
 		printf("%d\n", n);
