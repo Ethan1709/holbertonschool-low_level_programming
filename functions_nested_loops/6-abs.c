@@ -3,7 +3,7 @@
 /**
  * _abs - Entry point
  * Description: checks if character is in lowercase
- *@int: absolute value
+ *@c: absolute value
  * Return: Alaways 0 (Success)
  */
 
