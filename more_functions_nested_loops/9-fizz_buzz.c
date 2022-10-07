@@ -26,6 +26,7 @@ int main(void)
 			printf("%d", i);
 		putchar(" "[i == 100]);
 	}
+	putchar('\n');
 	return (0 * putchar(10));
 }
 
