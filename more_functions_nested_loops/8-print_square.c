@@ -7,7 +7,7 @@
  * Return: Alaways 0 (Success)
  */
 
-void print_diagonal(int size)
+void print_square(int size)
 
 {
 	int i = 0, j;
