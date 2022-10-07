@@ -28,10 +28,8 @@ void print_triangle(int size)
 	{
 		j = 0;
 		while (j < size)
-		{
-			_putchar(m[i][j]);
 			j++;
-		}
+	}
 		_putchar('\n');
 		i--;
 	}
