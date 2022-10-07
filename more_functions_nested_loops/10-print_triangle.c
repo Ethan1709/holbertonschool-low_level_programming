@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_triangle - Entry point
+ * print_square - Entry point
  * Description: prints a square
  * @size: size of the square
  * Return: Alaways 0 (Success)
  */
 
-void print_triangle(int size)
+void print_square(int size)
 
 {
 	int i = 0, j;
@@ -21,17 +21,15 @@ void print_triangle(int size)
 	{
 		j = 0;
 		while (j < size)
+		{
+			_putchar('#');
+			j++;
+		}
+		if (j == i)
+			_putchar(' ');
+		_putchar('\n');
 		i++;
 	}
-	i = size - 1;
-	while (i >= 0)
-	{
-		j = 0;
-		while (j < size)
-			j++;
-	}
-		_putchar('\n');
-		i--;
 }
 
 
