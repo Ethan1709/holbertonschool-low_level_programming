@@ -11,6 +11,7 @@ void print_triangle(int size)
 
 {
 	int i = 0, j;
+	char	m[size][size];
 
 	if (size <= 0)
 	{
@@ -22,16 +23,22 @@ void print_triangle(int size)
 		j = 0;
 		while (j < size)
 		{
-			_putchar('#');
+			m[i][j] = "# "[j < i];
 			j++;
-			if (i == j)
-				break;
 		}
-
-
-		_putchar('\n');
 		i++;
 	}
+	i = size - 1;
+	while (i >= 0)
+	{
+		j = 0;
+		while (j < size)
+		{
+			_putchar(m[i][j]);
+			j++;
+		}
+		_putchar('\n');
+		i--;
+	}
 }
-
 
