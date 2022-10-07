@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_square - Entry point
+ * print_triangle - Entry point
  * Description: prints a square
  * @size: size of the square
  * Return: Alaways 0 (Success)
  */
 
-void print_square(int size)
+void print_triangle(int size)
 
 {
 	int i = 0, j;
