@@ -12,8 +12,8 @@ int _isupper(int c)
 {
 	if (_isupper(c))
 	{
-		putchar(c);
-	putchar(': ');
+		_putchar(c);
+	_putchar(': ');
 	return (1);
 	}
 	else
