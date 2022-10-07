@@ -6,7 +6,7 @@
  * Return: Alaways 0 (Success)
  */
 
-int print_numbers(void)
+void print_numbers(void)
 
 {
 	int n;
