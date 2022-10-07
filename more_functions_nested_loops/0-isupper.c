@@ -11,10 +11,11 @@ int _isupper(int c)
 
 {
 	if (_isupper(c))
+	{
 		putchar(c);
 	putchar(': ');
 	return (1);
-
+	}
 	else
 		return (0);
 }
