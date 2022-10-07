@@ -9,7 +9,7 @@
 int print_numbers(void)
 
 {
-	int n;i
+	int n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
