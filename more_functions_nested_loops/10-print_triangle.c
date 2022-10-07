@@ -1,32 +1,37 @@
 #include "main.h"
 
 /**
- * print_diagonal - Entry point
- * Description: prints a straight line
- * @n: n is the character
+ * print_triangle - Entry point
+ * Description: prints a square
+ * @size: size of the square
  * Return: Alaways 0 (Success)
  */
 
-void print_diagonal(int n)
+void print_triangle(int size)
 
 {
-	int l;
-	int m;
+	int i = 0, j;
 
-	if (n > 0)
+	if (size <= 0)
 	{
-		for (l = 0; l < n; l++)
-		{
-			for (m = 0; m < l; m++)
-				_putchar(' ');
-			_putchar('\\');
-
-			if (l == n - 1)
-				continue;
-
-			_putchar('\n');
-		}
+		_putchar('\n');
+		return;
 	}
-	_putchar('\n');
+	while (i < size)
+	{
+		j = 0;
+		while (j < size)
+		{
+			_putchar('#');
+			j++;
+			if (i == j)
+				break;
+		}
+
+
+		_putchar('\n');
+		i++;
+	}
 }
+
 
