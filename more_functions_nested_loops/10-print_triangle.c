@@ -11,7 +11,6 @@ void print_triangle(int size)
 
 {
 	int i = 0, j;
-	char	m[size][size];
 
 	if (size <= 0)
 	{
@@ -22,10 +21,6 @@ void print_triangle(int size)
 	{
 		j = 0;
 		while (j < size)
-		{
-			m[i][j] = "# "[j < i];
-			j++;
-		}
 		i++;
 	}
 	i = size - 1;
