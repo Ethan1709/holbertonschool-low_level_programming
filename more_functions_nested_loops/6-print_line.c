@@ -3,6 +3,7 @@
 /**
  * print_line - Entry point
  * Description: prints a straight line
+ * @n: n is the character
  * Return: Alaways 0 (Success)
  */
 
