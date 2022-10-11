@@ -3,17 +3,16 @@
 /**
  * reset_to_98 - Entry point
  * Description: takes a pointer to a value of 98
- *@n: n is the integer
+ *@n: n is the pointer
  * Return: Alaways 0 (Success)
  */
 
 void reset_to_98(int *n)
 
 	{
-		int n = 98;
-		int *ip;
+		int c;
 
-		ip = &n;
+		n = &c;
 	}
 
 
