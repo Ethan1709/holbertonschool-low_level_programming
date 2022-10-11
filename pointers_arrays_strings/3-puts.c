@@ -7,7 +7,7 @@
  * Return: Alaways 0 (Success)
  */
 
-int _strlen(char *str)
+int _puts(char *str)
 
 	{
 		while (*str)
