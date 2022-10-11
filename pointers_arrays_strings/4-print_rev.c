@@ -7,7 +7,7 @@
  * Return: Alaways 0 (Success)
  */
 
-void _print_rev(char *s)
+void print_rev(char *s)
 
 	{
 		while (*str)
