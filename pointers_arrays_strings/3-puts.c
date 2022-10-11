@@ -3,7 +3,7 @@
 /**
  * _puts - Entry point
  * Description: prints a string
- * @str: is the first integer
+ * @str
  * Return: Alaways 0 (Success)
  */
 
@@ -13,7 +13,7 @@ void _puts(char *str)
 		int i;
 
 		for (i = 0; str[i]; i++)
-			_putchar("%s", str);
+			_putchar(str);
 		return (i);
 	}
 
