@@ -21,6 +21,6 @@ void print_rev_logic(char *s)
 void print_rev(char *s)
 {
 	print_rev_logic(s);
-	return ((void) _putchar(10));
+	_putchar(10);
 }
 
