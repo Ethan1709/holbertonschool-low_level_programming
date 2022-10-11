@@ -10,8 +10,8 @@
 void print_rev(char *s)
 
 	{
-		while (*str)
-			_putchar(*str--);
+		while (*s)
+			_putchar(*s--);
 
 		_putchar('\n');
 	}
