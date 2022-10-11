@@ -13,7 +13,7 @@ void reset_to_98(int *n);
 		int n = 98;
 		int *ip;
 
-		ip = &n
+		ip = &n;
 			return (0);
 	}
 
