@@ -12,6 +12,7 @@ int _strlen(char *str)
 	{
 		while (*str)
 			_putchar(*str++);
+	
 		_putchar('\n');
 	}
 
