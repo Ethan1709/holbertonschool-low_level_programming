@@ -7,7 +7,7 @@
  * Return: Alaways 0 (Success)
  */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 
 	{
 		int n = 98;
