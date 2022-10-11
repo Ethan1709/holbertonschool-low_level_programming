@@ -2,20 +2,17 @@
 
 /**
  * _puts - Entry point
- * Description: prints a string
- * @str: pointer
+ * Description: return the length of a string
+ * @s: is the first integer
  * Return: Alaways 0 (Success)
  */
 
-void _puts(char *str)
+int _strlen(char *str)
 
 	{
-
-		while (*str != '\0');
-			{
-				_putchar(*str);
-				str++;
-			}
+		while (*str)
+			_putchar(*str++);
+		_putchar('\n');
 	}
 
 
