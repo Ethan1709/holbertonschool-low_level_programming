@@ -9,12 +9,12 @@
 
 void reset_to_98(int *n);
 
-{
-	int n = 98;
-	int *ip;
+	{
+		int n = 98;
+		int *ip;
 
-	ip = &n
-		return (0);
-}
+		ip = &n
+			return (0);
+	}
 
 
