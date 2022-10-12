@@ -8,19 +8,15 @@
  */
 void rev_string(char *s)
 {
-	if (!*s)
-		return;
-	print_rev_logic(s + 1);
-	_putchar(*s);
-}
+	int length = strlen(s);
+	int middle = length / 2;
+	char temp;
 
-/**
- * print_rev - function
- * @s: char ptr
- */
-void print_rev(char *s)
-{
-	print_rev_logic(s);
-	_putchar(10);
+	for (i = 0; i < middle; i++)
+	{
+		temp = s[i];
+		s[i] = s[length - i - 1];
+		s[length - i - 1] = temp;
+	}
 }
 
