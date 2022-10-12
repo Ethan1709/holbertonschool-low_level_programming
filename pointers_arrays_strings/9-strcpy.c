@@ -14,10 +14,10 @@ void char *_strcpry(char *src, char *dest)
 
 		while (src[i])
 		{
-			dest[i] = src[i]
-				return (dest);
+			dest[i] = src[i];
+				dest++;
 		}
-		_putchar('\n');
+		return (dest);
 	}
 
 
