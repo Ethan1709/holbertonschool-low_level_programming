@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - Entry point
@@ -18,12 +18,12 @@ void print_array(int *a, int n)
 
 			if ( i == n - 1)
 				continue;
-			printf(", ";
+			printf(", ");
 		}
 
 		
 
-		_putchar('\n');
+		printf("\n");
 	}
 
 
