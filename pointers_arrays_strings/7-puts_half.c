@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * puts2 - Entry point
+ * puts_half - Entry point
  * @str: is the string
  * Return: Alaways 0 (Success)
  */
 
-void puts2(char *str)
+void puts_half(char *str)
 
 	{
 		int i = 0;
