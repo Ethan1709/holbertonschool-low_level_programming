@@ -7,7 +7,7 @@
  * Return: Alaways 0 (Success)
  */
 
-void char *_strcpry(char *src, *dest)
+void char *_strcpry(char *src, char *dest)
 
 	{
 		char i = 0;
@@ -16,6 +16,7 @@ void char *_strcpry(char *src, *dest)
 		{
 			dest[i] = src[i]
 				return (dest);
+		}
 		_putchar('\n');
 	}
 
