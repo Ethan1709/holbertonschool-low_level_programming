@@ -20,9 +20,9 @@ void puts2(char *str)
 			n = j / 2;
 
 		else
-			n = j - 1 / 2;
+			n = (j - 1) / 2;
 
-		for (i = 0; i < j; i++)
+		for (i = n; i < j; i++)
 			_putchar(str[i]);
 
 		_putchar('\n');
