@@ -7,7 +7,7 @@
  * Return: Alaways 0 (Success)
  */
 
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, const char *src)
 
 	{
 		int i = 0;
@@ -17,7 +17,7 @@ char *_strcpy(char *dest, char *src)
 			dest[i] = src[i];
 				i++;
 		}
-	
+
 		return (dest);
 	}
 
