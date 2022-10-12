@@ -7,7 +7,7 @@
  * Return: Alaways 0 (Success)
  */
 
-void char *_strcpry(char *src, const char *dest)
+char *_strcpry(char *src, char *dest)
 
 	{
 		int i = 0;
