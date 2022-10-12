@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * char *_strcpy - Entry point
+ * @src: is the string
+ * @dest: is the string
+ * Return: Alaways 0 (Success)
+ */
+
+void char *_strcpry(char *src, *dest)
+
+	{
+		char i = 0;
+
+		while (src[i])
+		{
+			dest[i] = src[i]
+				return (dest);
+		_putchar('\n');
+	}
+
+
