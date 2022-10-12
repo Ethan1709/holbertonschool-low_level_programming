@@ -7,7 +7,7 @@
  * Return: Alaways 0 (Success)
  */
 
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 
 	{
 		int i = 0;
