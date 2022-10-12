@@ -10,7 +10,7 @@
 void char *_strcpry(char *src, char *dest)
 
 	{
-		char i = 0;
+		int i = 0;
 
 		while (src[i])
 		{
