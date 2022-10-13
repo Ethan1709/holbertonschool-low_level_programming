@@ -17,10 +17,10 @@ char *_strncat(char *dest, char *src, int n)
 		while (dest[j])
 			j++;
 
-		while (src[i] =! n)
+		while (src[i])
 		{
 		dest[j] = (src[i] + dest[j]);
-			i++, j++;
+			i +!= n, j++;
 		}
 
 		return (dest);
