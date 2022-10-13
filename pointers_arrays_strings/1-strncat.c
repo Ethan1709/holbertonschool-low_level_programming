@@ -18,10 +18,10 @@ char *_strncat(char *dest, char *src, int n)
 			while (dest[j])
 				j++;
 
-			while (src[i <= n])
+			for (n = 0; i < n; n++)
 			{
-			dest[j] = (src[i] + dest[j]);
-				i++, j++;
+				dest[j] = (src[i] + dest[j]);
+					i++, j++;
 			}
 		}
 		return (dest);
