@@ -3,7 +3,8 @@
 /**
  * reverse_array - Entry point
  * Description: return the length of a string
- * @str: is the first integer
+ * @a: string
+ * @n: is the first integer
  * Return: Alaways 0 (Success)
  */
 
