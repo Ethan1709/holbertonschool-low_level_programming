@@ -19,5 +19,5 @@ char *_strstr(char *haystack, char *needle)
 		j++;
 
 	if (i == j)
-		return (*i);
+		return (i);
 }
