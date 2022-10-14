@@ -2,8 +2,7 @@
 
 /**
  * print_chessboard - locates first occurence in a string
- * @haystack: first string
- * @needle: second string
+ * @a: first string
  *
  * Return: Pointer to memory area
  */
