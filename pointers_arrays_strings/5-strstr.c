@@ -20,6 +20,4 @@ char *_strstr(char *haystack, char *needle)
 
 	if (i == j)
 		return (i);
-	else 
-		continue;
 }
