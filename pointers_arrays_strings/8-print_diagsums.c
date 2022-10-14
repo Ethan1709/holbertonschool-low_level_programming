@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 /**
- * print_diagsmus - locates first occurence in a string
- * @a: first string
- * @size: integer
- * Return: Pointer to memory area
+ * print_diagsums - function
+ * @a: int ptr
+ * @size: int
  */
-
-void print_diagsmus(int *a, int size)
+void	print_diagsums(int *a, int size)
 {
 	int	i;
 	int	rx;
@@ -22,4 +20,3 @@ void print_diagsmus(int *a, int size)
 	}
 	printf("%d, %d\n", rx, ry);
 }
-
