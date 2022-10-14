@@ -9,17 +9,17 @@
 
 void print_diagsmus(int *a, int size)
 {
-	int i;
-	int j;
-	int x;
+	int	i;
+	int	rx;
+	int	ry;
 
-	i = 0;
-	j = 0;
+	rx = 0;
+	ry = 0;
 	for (i = 0; i < size; i++)
 	{
-		j += a[(size + 1) * i];
-		x += a[(size - 1) * (i + 1)];
+		rx += a[(size + 1) * i];
+		ry += a[(size - 1) * (i + 1)];
 	}
-	printf("%d, %d\n", j, x);
+	printf("%d, %d\n", rx, ry);
 }
 
