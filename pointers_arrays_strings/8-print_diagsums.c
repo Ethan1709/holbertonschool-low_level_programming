@@ -18,7 +18,7 @@ void print_diagsmus(int *a, int size)
 	for (i = 0; i < size; i++)
 	{
 		j += a[(size + 1) * i];
-		x += a[(size - 2) * (i + 1)];
+		x += a[(size - 1) * (i + 1)];
 	}
 	printf("%d, %d\n", j, x);
 }
