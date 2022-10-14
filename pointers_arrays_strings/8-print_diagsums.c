@@ -11,24 +11,15 @@ void print_diagsmus(int *a, int size)
 {
 	int i;
 	int j;
+	int x;
 
+	i = 0;
+	j = 0;
 	for (i = 0; i < size; i++)
 	{
-		for (j = 0; j < size; j++)
-		{
-			if (i == j)
-
-				printf("%d", a[i] + a[j]);
-		}
+		j += a[(size + 1) * i];
+		x += a[(size - 2) * (i + 1)];
 	}
-
-	for (i = size; i >= 0; i--)
-	{
-		for (j = size; j >= 0; j--)
-		{
-			if (i == j)
-
-				printf("%d", i + j);
-		}
-	}
+	printf("%d, %d\n", j, x);
 }
+
