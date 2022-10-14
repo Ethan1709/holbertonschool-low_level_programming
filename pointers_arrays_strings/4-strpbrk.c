@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _strpbrk - Find first occurence of any accepted byte
  * @s: String to search

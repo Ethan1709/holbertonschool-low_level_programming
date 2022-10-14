@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _memset - Fill n bytes of memory area pointed to with constant byte
  * @s: Area pointed to
