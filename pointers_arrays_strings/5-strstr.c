@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strstr - Fill n bytes of memory area pointed to with constant byte
- * @haystack: Area pointed to
- * @needle: Byte to fill it with
+ * _strstr - locates first occurence in a string
+ * @haystack: first string
+ * @needle: second string
  *
  * Return: Pointer to memory area
  */
