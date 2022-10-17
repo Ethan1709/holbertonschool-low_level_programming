@@ -8,14 +8,15 @@
  * Return: Always success (0)
  */
 
-int _pow_recursion(int x, int y);
+int _pow_recursion(int x, int y)
 {
 	if (y == 0)
 		return (1);
-	if (y < 0)
-		return (_pow_recursion(x, y + 1) / x;
 
-	return (_pow_recursion(_pow_recursion(x, y - 1) * x);
+	else if (y < 0)
+		return (-1)
+
+	else (_pow_recursion(x ** y)); 
 }
 
 
