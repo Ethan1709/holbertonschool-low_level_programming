@@ -10,11 +10,13 @@
 
 int _strlen_recursion(char *s)
 {
+	int i = 0;
+
 	if (*s != '\0')
 	{
 		_print_rev_recursion(s++);
-		_putchar([s]);
+			;
 	}
-
+	return (s);
 }
 
