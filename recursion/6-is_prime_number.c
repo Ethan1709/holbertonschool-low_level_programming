@@ -18,8 +18,11 @@ int power(int x, int y)
 	else if (x * x < y)
 		return (0);
 
-	else
+	else if
 		return (1);
+
+	else 
+		return (power(x +1, y);
 }
 
 /**
