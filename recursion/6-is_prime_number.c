@@ -34,7 +34,7 @@ int _sqrt_recursion(int n)
 	if (n == 0)
 		return (0);
 	else
-		return (power(1));
+		return (power(1, n));
 }
 
 
