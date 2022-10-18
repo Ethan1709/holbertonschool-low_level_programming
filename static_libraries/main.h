@@ -1,5 +1,5 @@
-#ifndef
-#define
+#ifndef SOMETHING
+#define SOMETHING
 
 int _putchar(char c);
 int _islower(int c);
