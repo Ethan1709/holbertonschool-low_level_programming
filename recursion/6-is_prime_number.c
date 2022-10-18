@@ -22,7 +22,7 @@ int power(int x, int y)
 		return (1);
 
 	else 
-		return (power(x +1, y);
+		return (power(x + 1, y);
 }
 
 /**
