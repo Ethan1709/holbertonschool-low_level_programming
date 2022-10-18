@@ -1,32 +1,27 @@
 #include "main.h"
 
 /**
- * power - second fonction
+ * prime - second fonction
  * @x: first integer
  * @y: second integer
  * Return: Always success (0)
  */
 
-int power(int x, int y)
+int prime(int x, int y)
 {
-	if (x * x == y)
+	if (x <= 1 || x % y == 0)
 		return (0);
 
-	else if (x * x > y)
-		return (0);
-
-	else if (x * x < y)
-		return (0);
-
-	else if
+	else if (x == y)
 		return (1);
 
-	else 
-		return (power(x + 1, y));
+	else if (x > y)
+		prime(x, y + 1);
+	return (1);
 }
 
 /**
- * _sqrt_recursion - main fonction
+ * is_prime_number - main fonction
  * @n: integer
  *
  *Return: Always success
@@ -34,10 +29,5 @@ int power(int x, int y)
 
 int is_prime_number(int n)
 {
-	if (n == 0)
-		return (0);
-	else
-		return (power(1, n));
+	return (prime(n, 2));
 }
-
-
