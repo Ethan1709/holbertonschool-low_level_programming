@@ -7,7 +7,7 @@
  * Return: Always success (0)
  */
 
-int power(int x, y)
+int power(int x, int y)
 {
 	if (x * x == y)
 		return (x);
