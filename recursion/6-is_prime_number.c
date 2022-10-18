@@ -32,7 +32,7 @@ int power(int x, int y)
  *Return: Always success
  */
 
-int _sqrt_recursion(int n)
+int is_prime_number(int n)
 {
 	if (n == 0)
 		return (0);
