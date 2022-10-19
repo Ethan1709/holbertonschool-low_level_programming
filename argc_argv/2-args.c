@@ -7,10 +7,10 @@
  * Return: Success
  */
 
-int main(__attribute__ ((unused)) int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", *argv);
-	argv++;
+	argc++;
 
 	return (0);
 }
