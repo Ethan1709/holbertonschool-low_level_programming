@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -12,7 +13,6 @@ int main(int argc, char *argv[])
 	int i;
 	int j;
 	int result;
-	int atoi(const char *argv);
 
 	if (argc != 3)
 	{
