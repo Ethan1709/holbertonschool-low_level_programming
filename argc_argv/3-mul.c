@@ -23,5 +23,7 @@ int main(int argc, char *argv[])
 	j = atoi(argv[2]);
 	result = i * j;
 
-	return (result);
+	printf("%d\n", result);
+
+	return (0);
 }
