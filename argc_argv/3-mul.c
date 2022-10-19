@@ -10,10 +10,18 @@
 int main(int argc, char *argv[])
 {
 	int i;
+	int j;
+	int result;
 
-	for (i = 1 && i = 2)
+	if (argc != 3)
 	{
-		printf("%s\n", (argv[i]);
+		printf("Error\n")
+			return (1);
 	}
-	return (0);
+
+	i = atoi(argv[1]);
+	j = atoi(argv[2]);
+	result = i * j;
+
+	return (result);
 }
