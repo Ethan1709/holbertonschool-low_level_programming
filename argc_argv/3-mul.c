@@ -7,7 +7,13 @@
  * Return: Success
  */
 
-int main(int x, int y)
+int main(int argc, char *argv[])
 {
-	return (x * y);
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[1] * argv[2]);
+	}
+	return (0);
 }
