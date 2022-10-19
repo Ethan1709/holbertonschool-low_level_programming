@@ -9,6 +9,5 @@
 
 int main(int argc)
 {
-	printf("argc = %d\n", argc);
-	return (0);
+	printf("%d\n", argc);
 }
