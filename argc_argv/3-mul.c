@@ -7,15 +7,7 @@
  * Return: Success
  */
 
-int main(int argc, __attribute__ ((unused)) char *argv[])
+int main(int x, int y)
 {
-	int i;
-	int j;
-	
-	if (argc == '\0')
-		printf("Error");
-			return (1);
-	
-	else
-		return (i * j);
+	return (x * y);
 }
