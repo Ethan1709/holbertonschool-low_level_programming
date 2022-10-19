@@ -7,9 +7,9 @@
  * Return: Success
  */
 
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	while (argv != '\0')
+	while (argc != '\0')
 		printf("%s\n", *argv);
 
 	return (0);
