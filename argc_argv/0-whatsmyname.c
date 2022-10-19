@@ -7,7 +7,7 @@
  * Return: Success
  */
 
-int main(int argc)
+int main()
 {
 	printf("%d\n", argc);
 }
