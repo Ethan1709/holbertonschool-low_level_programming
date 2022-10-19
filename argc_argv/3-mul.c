@@ -10,6 +10,7 @@
 int main(int argc, char *argv[])
 {
 	int i, j, result;
+	int atoi(const char *argv);
 
 	if (argc != 3)
 	{
