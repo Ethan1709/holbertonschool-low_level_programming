@@ -10,6 +10,6 @@
 int main(__attribute__((unused)) int argc, char *argv[])
 {
 	printf("%s\n", *argv);
-	printf("%\n");
+		printf("%\n");
 	return (0);
 }
