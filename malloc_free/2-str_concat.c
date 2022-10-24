@@ -12,8 +12,8 @@
 char *str_concat(char *s1, char *s2)
 {
 	char *p;
-	int i;
-	int j;
+	int i = 0;
+	int j = 0;
 	int c;
 	int k;
 
@@ -36,4 +36,4 @@ char *str_concat(char *s1, char *s2)
 		i++;
 	}
 	return (p);
-}
+}i
