@@ -19,7 +19,6 @@ char *_strdup(char *str)
 
 	while (*str)
 	{
-		str++;
 		j++;
 	}
 
