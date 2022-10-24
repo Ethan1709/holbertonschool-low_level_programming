@@ -3,9 +3,8 @@
 #include <stdlib.h>
 
 /**
- * create_array - Entry point
- * @size: int
- * @c: char
+ * _strdup - Entry point
+ * @str: string
  * Return: char
  */
 
@@ -15,18 +14,22 @@ char *_strdup(char *str)
 	unsigned int i;
 	int j = 0;
 
+	if (str == NULL)
+		return (NULL);
+
 	while (*str)
 	{
 		str++;
 		j++;
 	}
 
-	p = malloc((sizeof(str) * j) + 1);
-	
-	if (str == NULL)
-		return (NULL);
+	p = malloc(j + 1);
 
 	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (p == NULL)
+			return (NULL);
 		p[i] = str[i];
+	}
 	return (p);
 }
