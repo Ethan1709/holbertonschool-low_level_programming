@@ -16,7 +16,10 @@ char *_strdup(char *str)
 	int j = 0;
 	
 	while (*str)
-		j++, str++;
+	{
+		j++;
+		str++;
+	}
 
 	p = malloc(j * sizeof(*str));
 
