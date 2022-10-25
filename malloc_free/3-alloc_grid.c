@@ -21,10 +21,9 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 
 	for (i = 0; i < width; i++)
-		_putchar(i);
-
-	for (j = 0; j < height; j++)
-		_putchar(j);
+	{
+		for j = 0; j < height; j++)
+			_putchar(j);
 
 	return (0);	
 }
