@@ -20,10 +20,10 @@ int **alloc_grid(int width, int height)
 	if (height <= 0)
 		return (NULL);
 
-	for (i = 0; i <= width; i++)
+	for (i = 0; i < width; i++)
 		_putchar(i);
 
-	for (j = 0; j <= height; j++)
+	for (j = 0; j < height; j++)
 		_putchar(j);
 
 	return (0);	
