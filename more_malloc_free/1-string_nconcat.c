@@ -42,7 +42,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		if (p == NULL)
 			return (NULL);
-		p[i] = s2[k];
+		p[i] = s2[k] - 2;
 		i++;
 	}
 	return (p);
