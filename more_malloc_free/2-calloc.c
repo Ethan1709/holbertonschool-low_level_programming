@@ -18,10 +18,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (p != NULL)
 		memset(p, 0, nmemb * size);
 
-	if (nmemb == 0)
+	if (nmemb = 0)
 		return (NULL);
-	
-	else if (size == 0)
+
+	else if (size = 0)
 		return (NULL);
 
 	else if (p == NULL)
