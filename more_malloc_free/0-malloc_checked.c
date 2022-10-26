@@ -1,0 +1,16 @@
+#include "main.h"
+#include <stddef.h>
+#include <stdlibh>
+
+/**
+ * malloc_checked - allocates memory
+ * @b: int
+ * Return: a pointer
+ */
+
+void *malloc_checked(unsigned int b)
+{
+	int *p;
+
+	return (p = malloc(sizeof(b)));
+}
