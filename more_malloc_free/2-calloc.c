@@ -20,11 +20,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0)
 		return (NULL);
-	if (size == 0)
+	
+	else if (size == 0)
 		return (NULL);
 
-	if (p == NULL)
+	else if (p == NULL)
 		return (NULL);
-
-	return (p);
+	
+	else
+		return (p);
 }
