@@ -1,1 +1,1 @@
-#define abs(x)
+#define ABS(x)
