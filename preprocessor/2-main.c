@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include __FILE__
+#define __FILENAME___
 /**
  * main - program name
  * @argc: name of the program
