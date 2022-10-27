@@ -1,1 +1,2 @@
-#define BUFFER_SIZE 1024
+#define TABLESIZE BUFSIZE
+#define BUFSIZE 1024
