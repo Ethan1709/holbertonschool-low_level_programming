@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define __FILE__
+
 /**
  * main - program name
  * @argc: name of the program
@@ -9,6 +9,6 @@
 
 int main(__attribute__((unused)) int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", __FILE__);
 		return (0);
 }
