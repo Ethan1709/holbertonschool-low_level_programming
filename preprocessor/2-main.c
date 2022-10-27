@@ -9,6 +9,6 @@
 
 int main(__attribute__((unused)) int argc, char *argv[])
 {
-	printf("%s\n", __FILE__ argv[0]);
+	printf("%s\n", argv[0], __FILE__);
 		return (0);
 }
