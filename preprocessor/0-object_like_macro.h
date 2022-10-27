@@ -1,2 +1,1 @@
-#define TABLESIZE BUFSIZE
-#define BUFSIZE 1024
+#define SIZE 1024
