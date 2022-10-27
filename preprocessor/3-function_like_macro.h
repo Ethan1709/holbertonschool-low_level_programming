@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - program name
+ * main - absolute value of x
  * Return: Success
  */
 
@@ -13,5 +13,5 @@ int main(void)
 		return (x);
 
 	else 
-		return (x *(-1));
+		return (x * (-1));
 }
