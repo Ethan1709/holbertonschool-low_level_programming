@@ -1,4 +1,4 @@
 #ifndef protect
 #define protect
-#define abs(x)
+#define ABS(x) (x * (-1))
 #endif
