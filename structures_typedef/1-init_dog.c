@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * struct dog - dog caracteristics
+ * init_dog - dog caracteristics
  * @name: name of the dog
  * @age: age of the dog
  * @owner: dog' owner
