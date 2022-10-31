@@ -7,7 +7,7 @@
  * @d: the pointer
  */
 
-void print_dog(struct dog *d);
+void print_dog(struct dog *d)
 {
 	if (d->name == NULL)
 		printf("Name: nil");
