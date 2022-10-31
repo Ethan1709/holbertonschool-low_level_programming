@@ -19,7 +19,9 @@ struct dog
 };
 #endif
 
-void init_dog(struct dog *d, char *name, float age, char *owner)
+ void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	struct dog d1 = {}; 
+	struct dog d;
+
+	d = struct dog {*d, *name, age, *owner};
 }
