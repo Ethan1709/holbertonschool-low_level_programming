@@ -1,5 +1,5 @@
-#ifndef protection 
-#define protection 
+#ifndef protection
+#define protection
 #include <stdio.h>
 #include <stdlib.h>
 
