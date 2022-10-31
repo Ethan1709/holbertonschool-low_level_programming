@@ -23,5 +23,5 @@ struct dog
 {
 	struct dog d;
 
-	d = struct dog {*d, *name, age, *owner};
+	d = (struct dog) {*d, *name, age, *owner};
 }
