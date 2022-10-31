@@ -1,5 +1,6 @@
 /**
  * dog - dog caracteristics
+ * @dog: the dog
  * @name: name of the dog
  * @age: age of the dog
  * @owner: dog's owner
