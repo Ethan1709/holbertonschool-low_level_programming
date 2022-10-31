@@ -1,3 +1,5 @@
+#ifndef protection 
+#define protection 
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,3 +17,4 @@ struct dog
 	float age;
 	char *owner;
 };
+#endif
