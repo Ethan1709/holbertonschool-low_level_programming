@@ -1,5 +1,3 @@
-#ifndef protection
-#define protection
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -10,7 +8,6 @@
  * @age: age of the dog
  * @owner: dog' owner
  */
-#endif
 
  void init_dog(struct dog *d, char *name, float age, char *owner)
 {	
