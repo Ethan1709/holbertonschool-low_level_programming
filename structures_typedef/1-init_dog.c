@@ -1,6 +1,7 @@
 #ifndef protection
 #define protection
 #include "dog.h"
+#include <stdlib.h>
 
 /**
  * struct dog - dog caracteristics
