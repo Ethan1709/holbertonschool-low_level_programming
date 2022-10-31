@@ -36,7 +36,7 @@ char	*_strdup(char *str)
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	char *p;
+	dog_t *p;
 	char *n;
 	char *o;
 
