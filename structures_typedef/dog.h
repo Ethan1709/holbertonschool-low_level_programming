@@ -1,6 +1,6 @@
 #ifndef dog
 #define dog
-#endif
+
 /**
  * dog - dog caracteristics
  * @name: name of the dog
