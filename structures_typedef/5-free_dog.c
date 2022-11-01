@@ -17,6 +17,6 @@ void free_dog(dog_t *d)
 
 	if (d->name == 0)
 		return;
-	free (d);
+	free (d->name);
 }
 
