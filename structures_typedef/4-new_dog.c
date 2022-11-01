@@ -5,6 +5,7 @@
 /**
  * _strdup - main
  * @str: ptr
+ * Return: res
  */
 
 char	*_strdup(char *str)
@@ -32,6 +33,7 @@ char	*_strdup(char *str)
  * @name: name of the dog
  * @age: age of the dog
  * @owner: dog's owner
+ * Return: p
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
