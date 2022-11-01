@@ -10,7 +10,7 @@
 
 void free_dog(dog_t *d)
 {
-	d = malloc(sizeof(char) * (dog_t + 1);
+	d = malloc(sizeof(dog_t));
 	if (d == 0)
 		return;
 	free(d);
