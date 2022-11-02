@@ -23,6 +23,8 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	if (size == 2048)
 		return (2047);
+	else
+		return (0);
 }
 	
 	
