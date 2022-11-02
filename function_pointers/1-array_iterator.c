@@ -10,5 +10,6 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	action(int array, size);
+	if (action == 0 || array == 0 || size == 0)
+		return;
 }
