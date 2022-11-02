@@ -18,13 +18,9 @@ int int_index(int *array, int size, int (*cmp)(int))
 	if (array == 0 || size == 0 || cmp == 0)
 		return (-1);
 
-	if (size == 20)
-		return (7);
-
-	if (size == 2048)
-		return (2047);
-	else
-		return (0);
+	for (n = 0, n < size; n++)
+		cmp(array[size - 1];
+				return (array[size - 1]);
 }
 
 
