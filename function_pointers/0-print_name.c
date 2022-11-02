@@ -9,8 +9,5 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	char c;
-
-	for (c = 0; f[name]; c++]
-			_putchar(c);
+	f(char, void);
 }
