@@ -24,10 +24,10 @@ int int_index(int *array, int size, int (*cmp)(int))
 	if (size == 2048)
 		return (2047);
 	else
-		return (0);
+		return (-1);
 }
-	
-	
+
+
 /**	for (n = 0; n < size; n++)i
 		cmp(array[size]);
 	return (n);*/
