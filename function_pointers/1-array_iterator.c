@@ -10,6 +10,11 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
+	int n;
+
 	if (action == 0 || array == 0 || size == 0)
 		return;
+
+	for (n = 0; n < size)
+		n++;
 }
