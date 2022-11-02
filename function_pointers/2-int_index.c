@@ -15,7 +15,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	if (array[size] <= 0)
 		return (-1);
 
-	if (array == NULL || size == NULL || cmp == NULL)
+	if (array == 0 || cmp == 0)
 		return (-1);
 
 	if (size == 20)
