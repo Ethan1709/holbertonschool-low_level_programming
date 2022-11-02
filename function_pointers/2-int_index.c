@@ -20,5 +20,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 	for (n = 0; n < size; n++)
 		cmp(array[n]);
-	return (0);
+	return (n);
 }
