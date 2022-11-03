@@ -6,7 +6,9 @@
 
 int main(int argc, char *argv[])
 {
-	int res, int num1, int num2;
+	int res;
+	int num1;
+	int num2;
 	char *s;
 
 	if (argc != 4)
