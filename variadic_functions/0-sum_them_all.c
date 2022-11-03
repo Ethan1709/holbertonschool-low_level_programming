@@ -2,7 +2,7 @@
 
 /**
  * sum_them_all - sum of the parameters
- * @n: int
+ * @n: number of arguments
  * Return: Success
  */
 
