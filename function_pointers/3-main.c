@@ -2,8 +2,8 @@
 
 /**
  * main - calculate
- * @argc - number of elements
- * @argv - the element
+ * @argc: number of elements
+ * @argv: the element
  * Return: Success
  */
 
