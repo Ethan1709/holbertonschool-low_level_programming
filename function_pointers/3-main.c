@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-	int res;
+	int res, int num1, int num2;
 	char *s;
 
 	if (argc != 4)
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	}
 	if ((*s == '/' || *s == '%') && num2 == 0)
 	{
-		printf("Error\n")
+		printf("Error\n");
 		exit(100);
 	}
 	res = (*get_op_func)(s)(num1, num2);
