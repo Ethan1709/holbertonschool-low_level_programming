@@ -23,7 +23,7 @@ void print_all(const char * const format, ...)
 	va_start(ap, format);
 
 	while (format[y])
-		unit.[y] = var_arg(ap, char *);
+		unit = var_arg(ap, char *);
 		{
 			printf("%s", unit.[y ]);
 			y++;
