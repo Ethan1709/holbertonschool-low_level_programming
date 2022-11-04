@@ -18,7 +18,7 @@
 	for (i = 0; i < n; i++)
 	{
 		j = va_arg(ap, unsigned int);
-		printf("%s", j);
+		printf("%d", j);
 		if (i == n - 1)
 			continue;
 		if (separator != NULL)
