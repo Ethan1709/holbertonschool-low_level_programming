@@ -9,7 +9,6 @@
 void print_all(const char * const format, ...)
 {
 	char *i = 0;
-	char **j = 0;
 
 	va_list ap;
 
@@ -18,7 +17,7 @@ void print_all(const char * const format, ...)
 	while (i < format - 1)
 	{
 		i++;
-		j = va_arg(ap, char *);
+		va_arg(ap, char *);
 	}
 	printf("\n");
 	va_end(ap);
