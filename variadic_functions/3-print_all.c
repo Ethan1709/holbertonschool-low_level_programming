@@ -9,25 +9,24 @@
 
 void print_all(const char * const format, ...)
 {
-	typedef struct unit {
-		char c;
-		int i;
-		float f;
-		char *s;
-	} unit;
+/**	struct chong[] = {
+		{"c", pchar},
+		{"i", pint},
+		{"f", pfloat},
+		{"s", pstring},
+		{NULL, NULL}
+	}; */
 
-	int y = 0;
-
+	int i = 0;
+	char *j = 0; 
+	
 	va_list ap;
 
 	va_start(ap, format);
 
-	while (format[y])
-		unit = var_arg(ap, char *);
-		{
-			printf("%s", unit.[y ]);
-			y++;
-		}
+	for (i = 0; i < format; i++)
+		j = va_arg(ap, char *);
 	printf("\n");
 	va_end(ap);
 }
+		
