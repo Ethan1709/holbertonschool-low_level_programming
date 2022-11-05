@@ -23,8 +23,11 @@ void print_all(const char * const format, ...)
 
 	va_start(ap, format);
 
-	for (i = 0; i < format; i++)
-		 va_arg(ap, char *);
+	while (i < format)
+	{
+	       i++;	
+		va_arg(ap, char *);
+	}
 	printf("\n");
 	va_end(ap);
 }
