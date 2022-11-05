@@ -17,7 +17,7 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	}; */
 
-	int *i = 0;
+	char *i = 0;
 	char *j = 0; 
 	
 	va_list ap;
