@@ -2,7 +2,7 @@
 
 /**
  * pchar - print char
- * @c: char
+ * @ap: variable
  * Return: void
  */
 
@@ -13,7 +13,7 @@ void pchar(va_list ap)
 
 /**
  * pinteger - print int
- * @i: int
+ * @ap: variable
  * Return: void
  */
 
@@ -24,7 +24,7 @@ void pinteger(va_list ap)
 
 /**
  * pfloat - print float
- * @f: float
+ * @ap: variable
  * Return: void
  */
 
@@ -35,7 +35,7 @@ void pfloat(va_list ap)
 
 /**
  * pstring - print string
- * @s: string
+ * @ap: variable
  * Return: void
  */
 
@@ -50,7 +50,7 @@ void pstring(va_list ap)
 	printf("%s", c);
 }
 
-/** 
+/**
  * print_all - prints all
  * @format: all arguments
  * Return: void
