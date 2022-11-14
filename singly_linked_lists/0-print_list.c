@@ -9,7 +9,7 @@
 size_t print_list(const list_t *h)
 {
 	if (str == NULL)
-		printf("[%d]" "(%s)", 0, nil);
-
+		printf("[%d]" "(%s)", 0, "nil");
 	return (0);
+		
 }
