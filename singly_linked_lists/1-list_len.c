@@ -13,7 +13,7 @@ size_t list_len(const list_t *h)
 	while (h)
 	{
 		if (h == NULL)
-			return (NULL);
+			return (1);
 		else 
 		{
 			node++;
