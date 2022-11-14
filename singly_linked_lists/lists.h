@@ -1,7 +1,14 @@
 #ifndef _SINGLY_LINKED_LISTS
-#define _SINGLY_LINKED_LISTS	
+#define _SINGLY_LINKED_LISTS
 #include <stdio.h>
 #include <stdlib.h>
+
+/**
+ * struct list_s - the structure
+ * @str: string
+ * @len: length
+ * @next: pointer to the net node
+ */
 
 typedef struct list_s
 {
