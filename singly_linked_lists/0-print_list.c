@@ -2,14 +2,19 @@
 
 /**
  * print_list - prints all the elements
- * @h: pointer
+ * @h: pointer on list_t
  * Return: Success
  */
 
 size_t print_list(const list_t *h)
 {
-	if (str == NULL)
-		printf("[%d]" "(%s)", 0, "nil");
-	return (0);
-		
+	size_t node;
+
+	while (h != NULL)
+		if (h->str == NULL)
+			printf("[0] (nil)");
+		else
+			printf("[%d] %s\n", h->len, h->str);
+	nodes++;
+	h->next;
 }
