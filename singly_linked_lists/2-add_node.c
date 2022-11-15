@@ -26,11 +26,11 @@ list_t *add_node(list_t **head, const char *str)
 	}
 	while (str[i])
 		i++;
-	
+
 	newnode->str = dup;
 	newnode->len = i;
 	newnode->next = *head;
 	*head = newnode;
-	
+
 	return (newnode);
 }
