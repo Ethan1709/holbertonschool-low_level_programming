@@ -9,5 +9,8 @@
 
 void free_list(list_t *head)
 {
-	free(head);
+	list_t *newnode;
+
+	newnode = malloc(sizeof(list_t));
+	free(newnode);
 }
