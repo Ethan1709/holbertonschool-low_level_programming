@@ -13,10 +13,9 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	listint_t *newnode;
 	int i = 0;
 
-
 	if (newnode == NULL)
 		return (NULL);
-	while (n[i])
+	while (n)
 		i++;
 
 	newnode->n = dup;
