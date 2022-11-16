@@ -3,7 +3,7 @@
 /**
  * pop_listint - frees listint_t
  * @head: double pointer on listint_t
- * Return: head
+ * Return: tmp
  */
 
 int pop_listint(listint_t **head)
@@ -16,5 +16,5 @@ int pop_listint(listint_t **head)
 	tmp = *head;
 	*head = head->next;
 
-	return (head);
+	return (tmp);
 }
