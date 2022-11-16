@@ -2,7 +2,7 @@
 
 /**
  * add_nodeint - adds a new node at the beggining of the list
- * @h: pointer on the structure
+ * @n: pointer on the structure
  * @head: double pointer on listint_t
  * Return: node
  */
