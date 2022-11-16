@@ -9,7 +9,7 @@
 
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-	char *dup;
+	int *dup;
 	listint_t *newnode;
 	int i = 0;
 
@@ -27,7 +27,6 @@ listint_t *add_nodeint(listint_t **head, const int n)
 		i++;
 
 	newnode->n = dup;
-	newnode->len = i;
 	newnode->next = *head;
 	*head = newnode;
 
