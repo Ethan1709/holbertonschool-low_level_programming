@@ -4,7 +4,7 @@
  * insert_nodeint_at_index - inserts a new node at given position
  * @head: double pointer on listint_t
  * @idx: ui
- * @: n
+ * @n: n
  * Return: sum
  */
 
@@ -20,7 +20,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	while (j != idx)
 	{
 		j++;
-		(*head) = (*head)->next;
 	}
 	newnode->n = n;
 	*head = newnode;
