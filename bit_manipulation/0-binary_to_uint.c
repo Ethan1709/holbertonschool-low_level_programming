@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * int_binary - converts a binary number to an unsigned int
+ * binary_to_uint - converts a binary number to an unsigned int
  * @b: const char
- * Return: the co,verted number
+ * Return: the converted number
  */
 
 unsigned int binary_to_uint(const char *b)
@@ -17,7 +17,7 @@ unsigned int binary_to_uint(const char *b)
 	while (b[i] == '0' || b[i] == '1')
 	{
 		dec <<= 1;
-		dec += b[i]-'0';
+		dec += b[i] - '0';
 		i++;
 	}
 	return (dec);
