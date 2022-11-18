@@ -2,7 +2,7 @@
 #define _BIT_MAN
 
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include <strings.h>
 
 unsigned int binary_to_uint(const char *b);
