@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * flip_bits - flip bits
- * @n: insigned long int
- * @m: uli
+ * countsetbits - recursive function for flipping bits
+ * @n: int
  * Return: number of bits
  */
 
@@ -18,6 +17,13 @@ unsigned int countsetbits(int n)
 	}
 	return (i);
 }
+
+/**
+ * flip_bits - flip bits
+ * @n: insigned long int
+ * @m: uli
+ * Return: number of bits
+ */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
