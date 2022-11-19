@@ -8,8 +8,5 @@
 
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+int _putchar(char c);
 #endif
