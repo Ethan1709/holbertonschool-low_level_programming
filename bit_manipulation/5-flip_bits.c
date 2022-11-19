@@ -7,13 +7,19 @@
  * Return: number of bits
  */
 
-unsigned int flip_bits(unsigned long int n, unsigned long int m)
+unsigned int countsetbits(int n)
 {
-	m = 0;
+	int i = 0;
+
 	while (n != 0)
 	{
-		m++;
+		i++;
 		n &= (n - 1);
 	}
 	return (m);
+}
+
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
+{
+	return countsetbits(n ^ m);
 }
