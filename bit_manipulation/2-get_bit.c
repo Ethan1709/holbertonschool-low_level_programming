@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary - returns value of a bit at a given position
+ * get_bit - returns value of a bit at a given position
  * @n: insigned long int
  * @index: ui
  * Return: value of a bit
