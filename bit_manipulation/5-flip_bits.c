@@ -26,6 +26,6 @@ unsigned int countsetbits(int n)
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
-{ 
+{
 	return (countsetbits(n ^ m));
 }
