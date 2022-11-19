@@ -26,9 +26,6 @@ unsigned int countsetbits(int n)
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
-{
-	if (n == ULONG_MAX && m == 0)
-		return (64);
-	else 
-		return (countsetbits(n ^ m));
+{ 
+	return (countsetbits(n ^ m));
 }
