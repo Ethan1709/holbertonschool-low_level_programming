@@ -9,7 +9,7 @@
 unsigned int countbits(unsigned long int n)
 {
 	unsigned long int i = 0;
-	
+
 	while (n != 0)
 	{
 		i++;
