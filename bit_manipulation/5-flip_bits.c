@@ -16,7 +16,7 @@ unsigned int countsetbits(int n)
 		i++;
 		n &= (n - 1);
 	}
-	return (m);
+	return (i);
 }
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
