@@ -10,7 +10,7 @@ unsigned int countsetbits(int n)
 {
 	int i = 0;
 
-	while (n != 0)
+	while (n > 0)
 	{
 		i++;
 		n &= (n - 1);
