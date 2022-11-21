@@ -21,8 +21,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	r = read(o, buf, letters);
 	w = write(1, buf, r);
 
-	if(o || r || w == -1)
+	if(o == -1 || r == -1 || w != r)
+	{
+		free(buf);
 		return (0);
+	}
 
 	close(o);
 	return (letters);
