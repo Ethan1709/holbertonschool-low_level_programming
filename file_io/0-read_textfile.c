@@ -10,6 +10,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t fd;
+	ssize_t r;
 	char *buf;
 
 	if (!filename || !letters)
@@ -22,22 +23,20 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		free(buf);
 		return (0);
-	}
-	while (buf != '\0')
-	{	
-		read(fd, buf, letters);
-		if (fd == -1)
-		{
+	}	
+	r = read(fd, buf, letters);
+	if (fd == -1)
+	{
 		free(buf);
 		return (0);
-		}
-		write(1, buf, letters);
-		if (fd == -1)
-		{
-			free(buf);
-			return (0);
-		}
 	}
+	write(1, buf, letters);
+	if (fd == -1)
+	{
+		free(buf);
+		return (0);
+	}
+	_putchar(r);
 	close(fd);
 	return (letters);
 }
