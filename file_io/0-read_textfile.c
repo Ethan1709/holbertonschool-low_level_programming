@@ -9,16 +9,21 @@
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int i = 0;
+	int i;
+	char *buf;
+
+	buf  = malloc(sizeof(char) * letters);
 
 	if (!filename)
 		return (0);
 	if (!letters)
 		return (0);
+	if (write == -1)
+		return (0);
 
-	while (filename[i])
-		_putchar(filename[i]);
+	i = open(filename, O_RDONLY); 
 
+	read(i, buf, letters);
 	return (letters);
 }
 
