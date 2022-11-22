@@ -11,10 +11,10 @@ size_t print_dlistint(const dlistint_t *h)
 	size_t node = 0;
 
 	while (h != NULL)
-	{
+	{	
+		h = h->previous;
 		node++;
 		h = h->next;
-		h = h->prev;
 	}
 	return (node);
 }
