@@ -1,8 +1,10 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - function that inserts a new node at given position
+ * insert_dnodeint_at_index - function that inserts a node at given position
  * @h: doyble ptr
+ * @idx: ui
+ * @n: int
  * Return: return the node
  */
 
