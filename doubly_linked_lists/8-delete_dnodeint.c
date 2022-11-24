@@ -19,11 +19,11 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	{
 		if (tmp->next == NULL)
 			return (-1);
-		i--;
+		i++;
 		tmp = tmp->next;
 	}
 
-	if (tmp == *head)
+	/**if (tmp == *head)
 	{
 		*head = tmp->next;
 		if (*head != NULL)
@@ -31,11 +31,11 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	}
 
 	else
-	{
+	{*/
 		tmp->prev->next = tmp->next;
 		if (tmp->next != NULL)
 			tmp->next->prev = tmp->prev;
 		free(tmp);
-	}
+
 	return (1);
 }
