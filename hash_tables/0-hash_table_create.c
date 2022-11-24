@@ -18,7 +18,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	htable->size = size;
 
 	for (i = 0; i < htable->size; i++)
-		htable->array[i] = NULL;
+		htable->next[i] = NULL;
 
 	return (htable);
 }
