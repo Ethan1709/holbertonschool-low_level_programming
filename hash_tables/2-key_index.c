@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_djb2 - gives index of a key
+ * key_index - gives index of a key
  * @key: the key
  *@size: uli
  * Return: the index
