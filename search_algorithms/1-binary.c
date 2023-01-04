@@ -24,7 +24,7 @@ int binary_search(int *array, size_t size, int value)
 		for (m = i; m <= j; m++)
 		{
 			printf("%d", array[m]);
-			if (array[m] != (int)j)
+			if (array[m] != array[j])
 				printf(", ");
 		}
 		printf("\n");
@@ -38,4 +38,3 @@ int binary_search(int *array, size_t size, int value)
 	}
 	return (-1);
 }
-
