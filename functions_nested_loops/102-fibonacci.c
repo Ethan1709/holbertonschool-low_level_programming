@@ -10,7 +10,7 @@ int main(void)
 {
 	long int i = 0, j = 1, k, sum = 0;
 
-	for (k = 1; k <= 50; k++)
+	for (k = 0; k <= 50; k++)
 	{
 		sum = i + j;
 		i = j;
