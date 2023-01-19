@@ -16,7 +16,7 @@ int main(void)
 		i = j;
 		j = sum;
 		printf("%ld", sum);
-		if (k != 50)
+		if (k != 49)
 			printf(", ");
 	}
 
