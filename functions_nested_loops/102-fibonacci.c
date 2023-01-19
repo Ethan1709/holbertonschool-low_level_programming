@@ -15,8 +15,9 @@ int main(void)
 		sum = i + j;
 		i = j;
 		j = sum;
-		if ( k != 50)
-			printf("%ld, ", sum);
+		printf("%ld", sum);
+		if (k != 50)
+			printf(", ");
 	}
 
 	return (0);
