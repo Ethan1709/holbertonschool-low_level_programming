@@ -17,7 +17,7 @@ int main(void)
 		j = sum;
 		if (sum % 2 == 0)
 		{
-			printf("%d", sum);
+			printf("%ld", sum);
 			if (i + j < 4000000)
 				printf(", ");
 		}
